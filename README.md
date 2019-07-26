@@ -4,7 +4,7 @@ A Chrome browser extension to Play/Pause video playing on YouTube websitepy just
 
 Extension link: 
 
-#ToDo List:
+# ToDo List:
 - Add Support to play next song.
 - Add Support to skip ad automatically.
 - 
