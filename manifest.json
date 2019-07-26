@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Play/Pause",
+    "version": "0.1.0",
+    "description": "On Clicking the icon of this extension, it will play/pause the video playing on YouTube.com",
+    "background": {
+      "scripts": ["background.js"]      
+    },
+    "permissions": [
+      "tabs",
+      "http://*/*", 
+      "https://*/*"      
+    ],
+    "browser_action": {
+        "default_title": "Click to Play/Pause YouTube"
+    }
+}
