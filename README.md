@@ -6,6 +6,7 @@ Extension link:
 
 # ToDo List:
 - Improve the check for YouTube tab
+- Add a button to open the YouTube running tab
 - Add Support to play next song
 - Add support to start song from start
 - Add support to play song on loop, observe the track progress and when 2 seconds are remaining resume the song :)
