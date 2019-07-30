@@ -6,6 +6,7 @@ Extension link:
 
 # ToDo List:
 - Improve the check for YouTube tab
+- Setting to resume with -5 second
 - Add a button to open the YouTube running tab
 - Add Support to play next song
 - Add support to start song from start
