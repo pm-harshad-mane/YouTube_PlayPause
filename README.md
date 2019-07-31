@@ -2,7 +2,7 @@
 
 A Chrome browser extension to Play/Pause video playing on YouTube websitepy just clicking on the extension icon.
 
-Extension link: 
+Extension link: https://chrome.google.com/webstore/detail/youtube-playpause/pmadkkbhfioemnigffhpgjockmoagmdm
 
 # ToDo List:
 - Improve the check for YouTube tab
@@ -12,4 +12,4 @@ Extension link:
 - Add support to start song from start
 - Add support to play song on loop, observe the track progress and when 2 seconds are remaining resume the song :)
 - Add Support to skip ad automatically.
-- Click to go to tab in which YouTube.com is opened
+
