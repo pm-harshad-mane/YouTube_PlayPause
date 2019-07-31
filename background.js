@@ -4,7 +4,7 @@ chrome.browserAction.onClicked.addListener(function(tab) {
             var tabs = windows[i].tabs;
             for (var j in tabs) {
                 var tab = tabs[j];
-                if(tab.url.indexOf('youtube')>=0){
+                if(tab.url.indexOf('youtube.com')>=0){
                     chrome.tabs.executeScript(
                         tab.id,
                         {code: "var b = document.querySelector('button[class=\"ytp-play-button ytp-button\"]'); if(b){b.click();}"}
