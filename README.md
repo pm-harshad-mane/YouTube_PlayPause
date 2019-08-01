@@ -11,6 +11,7 @@ Extension link: https://chrome.google.com/webstore/detail/youtube-playpause/pmad
 - Forward video by 10 seconds
 - Backward video by 10 seconds
 - Add Support to play next song
+- Add Support to play previous song
 - Add support to start song from start
 - Add support to play song on loop, observe the track progress and when 2 seconds are remaining resume the song :)
 - Add Support to skip ad automatically.
