@@ -12,5 +12,18 @@
         "default_title": "Click to Play/Pause YouTube",
         "default_icon": "icon-2.png",
         "default_popup": "popup.html"
-    }
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "http://www.youtube.com/*",
+          "https://www.youtube.com/*"
+        ],
+        "js": [
+          "ad_skipper.js"
+        ],
+        "run_at": "document_end"
+      }
+    ]
+
 }
