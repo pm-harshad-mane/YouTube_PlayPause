@@ -34,6 +34,7 @@ document.getElementById('play_pause').onclick = function(){
             tab.id,
             {code: "var b = document.querySelector('button.ytp-play-button.ytp-button'); if(b){b.click();}"}
         );
+        window.close();
     })
 }
 
@@ -44,6 +45,7 @@ document.getElementById('play_next').onclick = function(){
             tab.id,
             {code: "var b = document.querySelector('a.ytp-next-button.ytp-button'); if(b){b.click();}"}
         );
+        window.close();
     })
 }
 
@@ -54,6 +56,7 @@ document.getElementById('play_previous').onclick = function(){
             tab.id,
             {code: "var b = document.querySelector('a.ytp-prev-button.ytp-button'); if(b){b.click();}"}
         );
+        window.close();
     })
 }
 
@@ -63,11 +66,13 @@ document.getElementById('open_tab').onclick = function(){
         function(tab, window){
             chrome.windows.update(window.id, {focused: true})
             chrome.tabs.update(tab.id, {active: true});
+            window.close();
         }, 
         function(){
             chrome.tabs.create({
                 url: 'https://youtube.com'
             });
+            window.close();
         }
     );
 }
