@@ -66,13 +66,12 @@ document.getElementById('open_tab').onclick = function(){
         function(tab, window){
             chrome.windows.update(window.id, {focused: true})
             chrome.tabs.update(tab.id, {active: true});
-            window.close();
         }, 
         function(){
             chrome.tabs.create({
                 url: 'https://youtube.com'
             });
-            window.close();
         }
     );
+    window.close();
 }
