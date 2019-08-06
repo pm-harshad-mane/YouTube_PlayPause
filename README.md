@@ -13,7 +13,7 @@ Extension link: https://chrome.google.com/webstore/detail/youtube-playpause/pmad
 - ~~Add Support to play next song~~
 - ~~Add Support to play previous song~~
 - ~~Add Support to skip ad automatically~~
-- Can we close the UI after clicking any button in UI?
+- ~~Can we close the UI after clicking any button in UI?~~
 - Add some UI to enable / disable the AdSkipper workflow
 - Add some UI to let user see an ad if she wants to
 - __Low priority__
