@@ -5,11 +5,11 @@ A Chrome browser extension to Play/Pause video playing on YouTube websitepy just
 Extension link: https://chrome.google.com/webstore/detail/youtube-playpause/pmadkkbhfioemnigffhpgjockmoagmdm
 
 # ToDo List:
-- ~~Improve the check for YouTube tab
-- ~~Add a button to open the YouTube running tab
-- ~~Add Support to play next song
-- ~~Add Support to play previous song
-- ~~Add Support to skip ad automatically
+- ~~Improve the check for YouTube tab~~
+- ~~Add a button to open the YouTube running tab~~
+- ~~Add Support to play next song~~
+- ~~Add Support to play previous song~~
+- ~~Add Support to skip ad automatically~~
 - Add some UI to enable / disable the AdSkipper workflow
 - Add some UI to let user see an ad if she wants to
 - __Low priority__
